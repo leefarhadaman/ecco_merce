@@ -10,17 +10,7 @@ import { Toaster } from 'react-hot-toast';
 const Wishlist = () => {
   const { wishlist } = useContext(WishlistContext);
   const [quickViewProduct, setQuickViewProduct] = useState<Product | null>(null);
-  const [compareProducts, setCompareProducts] = useState<Product[]>([]);
 
-  const handleCompare = (product: Product) => {
-    if (compareProducts.some((p) => p.id === product.id)) {
-      setCompareProducts(compareProducts.filter((p) => p.id !== product.id));
-    } else if (compareProducts.length < 4) {
-      setCompareProducts([...compareProducts, product]);
-    } else {
-      alert('You can compare up to 4 products.');
-    }
-  };
 
   return (
     <motion.div
@@ -44,20 +34,11 @@ const Wishlist = () => {
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {wishlist.map((product) => (
-            <ProductCard
-              key={product.id}
-              product={product}
-              onQuickView={setQuickViewProduct}
-              onCompare={handleCompare}
-            />
+             <ProductCard
+             key={product.id}
+             product={product}
+           />
           ))}
-        </div>
-      )}
-      {compareProducts.length > 1 && (
-        <div className="fixed bottom-4 right-4 bg-teal-500 text-white p-4 rounded-full shadow-xl">
-          <Link to="/compare" className="font-inter">
-            Compare {compareProducts.length} Products
-          </Link>
         </div>
       )}
       <QuickViewModal product={quickViewProduct} onClose={() => setQuickViewProduct(null)} />

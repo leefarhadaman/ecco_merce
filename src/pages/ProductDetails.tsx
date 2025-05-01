@@ -1,12 +1,11 @@
 import { useState, useEffect, useContext } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams} from 'react-router-dom';
 import { CartContext } from '../components/CartContext';
 import { Product } from '../types';
 
 const ProductDetails = () => {
   const { id } = useParams<{ id: string }>();
   const { addToCart } = useContext(CartContext);
-  const navigate = useNavigate();
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('description');
