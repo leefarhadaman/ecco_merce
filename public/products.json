@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "name": "Men's Casual Shirt",
+    "category": ["Fashion", "Men", "Topwear"],
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1603252109612-24fa03d145c8?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Comfortable cotton shirt for everyday wear, perfect for casual outings.",
+    "specifications": { "Material": "Cotton", "Fit": "Regular", "Sizes": ["S", "M", "L", "XL"] },
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Women's Sneakers",
+    "category": ["Fashion", "Women", "Footwear"],
+    "price": 79.99,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    "description": "Stylish and durable sneakers for women, ideal for active lifestyles.",
+    "specifications": { "Material": "Leather", "Color": "White", "Sizes": ["6", "7", "8", "9"] },
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "Kids' T-Shirt",
+    "category": ["Fashion", "Kids", "Topwear"],
+    "price": 19.99,
+    "image": "https://brownliving.in/cdn/shop/files/human-nature-kids-unisex-organic-cotton-t-shirt-white-ek-saath-sustainable-kids-t-shirts-brown-living-hn-kt-white-2-473026.jpg?v=1720439122",
+    "description": "Soft and colorful t-shirt for kids, designed for comfort.",
+    "specifications": { "Material": "Cotton", "Color": "Blue", "Sizes": ["XS", "S", "M"] },
+    "rating": 4.2
+  },
+  {
+    "id": 4,
+    "name": "Men's Sneakers",
+    "category": ["Fashion", "Men", "Footwear"],
+    "price": 89.99,
+    "image": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/24627430/2023/8/24/4a0b590d-8c09-4798-846f-f9ea45d409b91692850222548MastHarbourMenWhiteColourblockedPUSneakers1.jpg",
+    "description": "High-performance sneakers for men, built for durability.",
+    "specifications": { "Material": "Synthetic", "Color": "Black", "Sizes": ["8", "9", "10", "11"] },
+    "rating": 4.8
+  },
+  {
+    "id": 5,
+    "name": "Women's Dress",
+    "category": ["Fashion", "Women", "Dresses"],
+    "price": 99.99,
+    "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/dress/r/v/j/3xl-kurti-western-dresses-for-women-girls-dress-womens-stylish-original-imaghyrxdnhz6qtu.jpeg?q=90&crop=false",
+    "description": "Elegant dress for special occasions, with a flattering fit.",
+    "specifications": { "Material": "Polyester", "Color": "Red", "Sizes": ["S", "M", "L"] },
+    "rating": 4.6
+  },
+  {
+    "id": 6,
+    "name": "Smartphone X",
+    "category": ["Electronics", "Mobiles", "Smartphones"],
+    "price": 699.99,
+    "image": "https://img.etimg.com/thumb/width-420,height-315,imgsize-109551,resizemode-75,msid-64959215/magazines/panache/oppo-find-x-with-a-motorised-camera-module-curved-display-could-be-yours-at-rs-59990/oppox.jpg",
+    "description": "Latest smartphone with cutting-edge technology.",
+    "specifications": { "OS": "Android", "Storage": "128GB", "Camera": "48MP" },
+    "rating": 4.9
+  },
+  {
+    "id": 7,
+    "name": "Laptop Pro",
+    "category": ["Electronics", "Computers", "Laptops"],
+    "price": 1299.99,
+    "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/surface-pro-11th-edition-black-compare-render-copilot?scl=1",
+    "description": "Powerful laptop for professionals, with fast performance.",
+    "specifications": { "Processor": "Intel i7", "RAM": "16GB", "Storage": "512GB SSD" },
+    "rating": 4.8
+  },
+  {
+    "id": 8,
+    "name": "Wireless Earbuds",
+    "category": ["Electronics", "Accessories", "Audio"],
+    "price": 149.99,
+    "image": "https://cdn.thewirecutter.com/wp-content/media/2022/11/wirelessearbuds-2048px-8831.jpg",
+    "description": "High-quality wireless earbuds with noise cancellation.",
+    "specifications": { "Battery": "20 hours", "Connectivity": "Bluetooth 5.0" },
+    "rating": 4.7
+  },
+  {
+    "id": 9,
+    "name": "Coffee Maker",
+    "category": ["Home", "Appliances", "Kitchen"],
+    "price": 99.99,
+    "image": "https://m.media-amazon.com/images/I/61x2BKrHBKL._AC_UF894,1000_QL80_.jpg",
+    "description": "Automatic coffee maker for home use, easy to operate.",
+    "specifications": { "Capacity": "12 cups", "Material": "Stainless Steel" },
+    "rating": 4.4
+  },
+  {
+    "id": 10,
+    "name": "Face Cream",
+    "category": ["Beauty", "Skincare", "Moisturizers"],
+    "price": 29.99,
+    "image": "https://artdeco.com/cdn/shop/collections/Kategoriebanner-Pflege-Gesichtspflege_600x400_unlimited.jpg?v=1686058170&width=1024",
+    "description": "Hydrating face cream for all skin types, non-greasy.",
+    "specifications": { "Volume": "50ml", "Type": "Day Cream" },
+    "rating": 4.3
+  },
+  {
+    "id": 11,
+    "name": "Men's Formal Shirt",
+    "category": ["Fashion", "Men", "Topwear"],
+    "price": 59.99,
+    "image": "https://assets.ajio.com/medias/sys_master/root/20231012/cJFi/6528297eddf779151938200b/-473Wx593H-469514981-darkblue-MODEL.jpg",
+    "description": "Crisp formal shirt for office and events.",
+    "specifications": { "Material": "Cotton Blend", "Fit": "Slim", "Sizes": ["S", "M", "L", "XL"] },
+    "rating": 4.6
+  },
+  {
+    "id": 12,
+    "name": "Women's Sandals",
+    "category": ["Fashion", "Women", "Footwear"],
+    "price": 69.99,
+    "image": "https://redtape.com/cdn/shop/files/RLF0103A_1.jpg?v=1741349368",
+    "description": "Elegant sandals for summer outings.",
+    "specifications": { "Material": "Leather", "Color": "Beige", "Sizes": ["6", "7", "8"] },
+    "rating": 4.5
+  },
+  {
+    "id": 13,
+    "name": "Boys' Hoodie",
+    "category": ["Fashion", "Boys", "Topwear"],
+    "price": 34.99,
+    "image": "https://punjabiadda.in/cdn/shop/products/stylish-mockup-of-a-man-wearing-a-pullover-hoodie-and-sunglasses-2277-el1-1_600x600.jpg?v=1698658937",
+    "description": "Cozy hoodie for boys, great for cool weather.",
+    "specifications": { "Material": "Fleece", "Color": "Gray", "Sizes": ["S", "M"] },
+    "rating": 4.3
+  },
+  {
+    "id": 14,
+    "name": "Girls' Sneakers",
+    "category": ["Fashion", "Girls", "Footwear"],
+    "price": 49.99,
+    "image": "https://fcity.in/images/products/310469845/qgrd0_512.jpg",
+    "description": "Trendy sneakers for girls, perfect for school.",
+    "specifications": { "Material": "Canvas", "Color": "Pink", "Sizes": ["3", "4", "5"] },
+    "rating": 4.4
+  },
+  {
+    "id": 15,
+    "name": "Smart Watch",
+    "category": ["Electronics", "Accessories", "Wearables"],
+    "price": 199.99,
+    "image": "https://www.boat-lifestyle.com/cdn/shop/files/Artboard5_17_1500x.png?v=1690528541",
+    "description": "Feature-packed smartwatch with fitness tracking.",
+    "specifications": { "Display": "AMOLED", "Battery": "48 hours", "Compatibility": "iOS/Android" },
+    "rating": 4.7
+  },
+  {
+    "id": 16,
+    "name": "Men's Jeans",
+    "category": ["Fashion", "Men", "Bottomwear"],
+    "price": 79.99,
+    "image": "https://cdn.thewirecutter.com/wp-content/media/2024/12/BEST-MENS-JEANS-2048px-5154.jpg?auto=webp&quality=75&width=1024",
+    "description": "Classic denim jeans for a versatile look.",
+    "specifications": { "Material": "Denim", "Fit": "Slim", "Sizes": ["30", "32", "34"] },
+    "rating": 4.5
+  },
+  {
+    "id": 17,
+    "name": "Women's Blouse",
+    "category": ["Fashion", "Women", "Topwear"],
+    "price": 59.99,
+    "image": "https://m.media-amazon.com/images/I/91cF5gxorBL._AC_UY1100_.jpg",
+    "description": "Chic blouse for professional and casual settings.",
+    "specifications": { "Material": "Silk", "Color": "White", "Sizes": ["S", "M", "L"] },
+    "rating": 4.6
+  },
+  {
+    "id": 18,
+    "name": "Kids' Backpack",
+    "category": ["Fashion", "Kids", "Accessories"],
+    "price": 29.99,
+    "image": "https://cdn.thewirecutter.com/wp-content/media/2022/08/backpackselemschool-2048px-00411.jpeg",
+    "description": "Durable backpack for school and travel.",
+    "specifications": { "Material": "Polyester", "Color": "Red", "Capacity": "20L" },
+    "rating": 4.3
+  },
+  {
+    "id": 19,
+    "name": "Gaming Console",
+    "category": ["Electronics", "Gaming", "Consoles"],
+    "price": 499.99,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+    "description": "Next-gen gaming console with immersive graphics.",
+    "specifications": { "Storage": "1TB", "Resolution": "4K", "Controller": "Wireless" },
+    "rating": 4.9
+  },
+  {
+    "id": 20,
+    "name": "Hair Dryer",
+    "category": ["Beauty", "Haircare", "Appliances"],
+    "price": 89.99,
+    "image": "https://beardo.in/cdn/shop/files/Beardo_Style_Tornado_Hair_Dryer_05.jpg?v=1713182796&width=1445",
+    "description": "Professional-grade hair dryer with multiple settings.",
+    "specifications": { "Power": "1800W", "Settings": "3 Heat, 2 Speed" },
+    "rating": 4.5
+  },
+  {
+    "id": 21,
+    "name": "Men's Jacket",
+    "category": ["Fashion", "Men", "Topwear"],
+    "price": 129.99,
+    "image": "https://m.media-amazon.com/images/I/71VFs2XrDVL._AC_UY350_.jpg",
+    "description": "Warm jacket for winter, stylish and functional.",
+    "specifications": { "Material": "Polyester", "Color": "Navy", "Sizes": ["M", "L", "XL"] },
+    "rating": 4.7
+  },
+  {
+    "id": 22,
+    "name": "Women's Boots",
+    "category": ["Fashion", "Women", "Footwear"],
+    "price": 109.99,
+    "image": "https://images-static.nykaa.com/media/catalog/product/3/a/3a4cbd0DBBLG-BT-Fur-Black_1.jpg?tr=w-500",
+    "description": "Chic ankle boots for fall and winter.",
+    "specifications": { "Material": "Suede", "Color": "Brown", "Sizes": ["6", "7", "8"] },
+    "rating": 4.6
+  },
+  {
+    "id": 23,
+    "name": "Boys' Sneakers",
+    "category": ["Fashion", "Boys", "Footwear"],
+    "price": 59.99,
+    "image": "https://www.jiomart.com/images/product/500x630/rvujkhyk9n/royal-cruzz-men-light-weight-sport-shoes-running-shoes-training-shoes-cycling-shoes-gym-shoes-running-shoes-for-men-orange-product-images-rvujkhyk9n-0-202302262008.jpg",
+    "description": "Cool sneakers for boys, ideal for sports.",
+    "specifications": { "Material": "Mesh", "Color": "Blue", "Sizes": ["4", "5", "6"] },
+    "rating": 4.4
+  },
+  {
+    "id": 24,
+    "name": "Girls' Dress",
+    "category": ["Fashion", "Girls", "Dresses"],
+    "price": 39.99,
+    "image": "https://img.faballey.com/images/Product/IGS00052Z/d3.jpg",
+    "description": "Cute dress for girls, perfect for parties.",
+    "specifications": { "Material": "Cotton", "Color": "Pink", "Sizes": ["S", "M"] },
+    "rating": 4.5
+  },
+  {
+    "id": 25,
+    "name": "Wireless Speaker",
+    "category": ["Electronics", "Accessories", "Audio"],
+    "price": 129.99,
+    "image": "https://cdn.thewirecutter.com/wp-content/media/2024/11/portablebluetoothspeakers-2048px-9130.jpg?auto=webp&quality=75&width=1024",
+    "description": "Portable speaker with rich sound quality.",
+    "specifications": { "Battery": "15 hours", "Connectivity": "Bluetooth 5.0" },
+    "rating": 4.7
+  },
+  {
+    "id": 26,
+    "name": "Men's Belt",
+    "category": ["Fashion", "Men", "Accessories"],
+    "price": 39.99,
+    "image": "https://teakwoodleathers.com/cdn/shop/files/T_BT_GLOSSY_BR.jpg?v=1709115440",
+    "description": "Classic leather belt for formal wear.",
+    "specifications": { "Material": "Leather", "Color": "Black", "Sizes": ["M", "L"] },
+    "rating": 4.4
+  },
+  {
+    "id": 27,
+    "name": "Women's Skirt",
+    "category": ["Fashion", "Women", "Bottomwear"],
+    "price": 49.99,
+    "image": "https://i5.walmartimages.com/seo/BOLLSLEY-Women-s-High-Waisted-Plain-Pleated-Skirt-Tartan-Skater-School-Uniform-A-line-Mini-Skirts_f95dc423-9c57-4828-acac-b2d45565377b.ef81aa2742fbff7712dcd27fbc8a2405.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+    "description": "Flowy skirt for a chic, casual look.",
+    "specifications": { "Material": "Chiffon", "Color": "Floral", "Sizes": ["S", "M", "L"] },
+    "rating": 4.5
+  },
+  {
+    "id": 28,
+    "name": "Kids' Sneakers",
+    "category": ["Fashion", "Kids", "Footwear"],
+    "price": 44.99,
+    "image": "https://assets.ajio.com/medias/sys_master/root/20230801/us94/64c8eacfeebac147fc99e554/-473Wx593H-466407414-pink-MODEL.jpg",
+    "description": "Lightweight sneakers for kids, easy to wear.",
+    "specifications": { "Material": "Canvas", "Color": "White", "Sizes": ["2", "3", "4"] },
+    "rating": 4.3
+  },
+  {
+    "id": 29,
+    "name": "Desktop Monitor",
+    "category": ["Electronics", "Computers", "Monitors"],
+    "price": 299.99,
+    "image": "https://i.pcmag.com/imagery/roundups/01Y9bqNdRmGOzHcetHQG2FW-34.fit_lim.size_1050x.jpg",
+    "description": "4K monitor for work and entertainment.",
+    "specifications": { "Size": "27 inches", "Resolution": "3840x2160", "Refresh Rate": "60Hz" },
+    "rating": 4.8
+  },
+  {
+    "id": 30,
+    "name": "Lipstick",
+    "category": ["Beauty", "Makeup", "Lipstick"],
+    "price": 19.99,
+    "image": "https://marscosmetics.in/cdn/shop/files/WEBSITEcopy.jpg..13.jpg?v=1721212046&width=2000",
+    "description": "Long-lasting lipstick with vibrant color.",
+    "specifications": { "Shade": "Red", "Finish": "Matte", "Volume": "3.5g" },
+    "rating": 4.4
+  },
+  {
+    "id": 31,
+    "name": "Men's Polo Shirt",
+    "category": ["Fashion", "Men", "Topwear"],
+    "price": 39.99,
+    "image": "https://static.aceomni.cmsaceturtle.com/prod/product-image/aceomni/Wrangler/Monobrand/WMTS007304/WMTS007304_1.jpg",
+    "description": "Breathable polo shirt for casual wear.",
+    "specifications": { "Material": "Cotton", "Color": "Green", "Sizes": ["S", "M", "L"] },
+    "rating": 4.5
+  },
+  {
+    "id": 32,
+    "name": "Women's Heels",
+    "category": ["Fashion", "Women", "Footwear"],
+    "price": 89.99,
+    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2",
+    "description": "Elegant high heels for formal events.",
+    "specifications": { "Material": "Leather", "Color": "Black", "Sizes": ["6", "7", "8"] },
+    "rating": 4.6
+  },
+  {
+    "id": 33,
+    "name": "Boys' Jacket",
+    "category": ["Fashion", "Boys", "Topwear"],
+    "price": 69.99,
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f",
+    "description": "Warm jacket for boys, perfect for winter.",
+    "specifications": { "Material": "Polyester", "Color": "Blue", "Sizes": ["S", "M"] },
+    "rating": 4.4
+  },
+  {
+    "id": 34,
+    "name": "Girls' Skirt",
+    "category": ["Fashion", "Girls", "Bottomwear"],
+    "price": 29.99,
+    "image": "https://sassafras.in/cdn/shop/products/NVSKRT30131-1.jpg?v=1744628561",
+    "description": "Cute skirt for girls, great for school.",
+    "specifications": { "Material": "Cotton", "Color": "Navy", "Sizes": ["S", "M"] },
+    "rating": 4.3
+  },
+  {
+    "id": 35,
+    "name": "Tablet",
+    "category": ["Electronics", "Mobiles", "Tablets"],
+    "price": 399.99,
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c",
+    "description": "Versatile tablet for work and entertainment.",
+    "specifications": { "OS": "Android", "Storage": "64GB", "Screen": "10.1 inches" },
+    "rating": 4.7
+  },
+  {
+    "id": 36,
+    "name": "Men's Watch",
+    "category": ["Fashion", "Men", "Accessories"],
+    "price": 149.99,
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314",
+    "description": "Stylish watch for men, perfect for all occasions.",
+    "specifications": { "Material": "Stainless Steel", "Color": "Silver", "Water Resistance": "50m" },
+    "rating": 4.6
+  },
+  {
+    "id": 37,
+    "name": "Women's Necklace",
+    "category": ["Fashion", "Women", "Jewelry"],
+    "price": 79.99,
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f",
+    "description": "Elegant necklace for special occasions.",
+    "specifications": { "Material": "Silver", "Length": "18 inches" },
+    "rating": 4.5
+  },
+  {
+    "id": 38,
+    "name": "Kids' Jacket",
+    "category": ["Fashion", "Kids", "Topwear"],
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f",
+    "description": "Cozy jacket for kids, ideal for cold days.",
+    "specifications": { "Material": "Fleece", "Color": "Red", "Sizes": ["XS", "S"] },
+    "rating": 4.4
+  },
+  {
+    "id": 39,
+    "name": "Camera",
+    "category": ["Electronics", "Cameras", "DSLR"],
+    "price": 799.99,
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+    "description": "Professional DSLR camera for stunning photography.",
+    "specifications": { "Sensor": "APS-C", "Resolution": "24MP", "Lens": "18-55mm" },
+    "rating": 4.8
+  },
+  {
+    "id": 40,
+    "name": "Foundation",
+    "category": ["Beauty", "Makeup", "Foundation"],
+    "price": 34.99,
+    "image": "https://images-static.nykaa.com/media/catalog/product/8/4/844f6bcNYCOLESS00014_P.jpg?tr=w-500",
+    "description": "Smooth foundation for flawless coverage.",
+    "specifications": { "Shade": "Medium", "Finish": "Matte", "Volume": "30ml" },
+    "rating": 4.5
+  },
+  {
+    "id": 41,
+    "name": "Men's Shorts",
+    "category": ["Fashion", "Men", "Bottomwear"],
+    "price": 44.99,
+    "image": "https://m.media-amazon.com/images/I/51czgGsNFZL._AC_UY1100_.jpg",
+    "description": "Comfortable shorts for casual summer wear.",
+    "specifications": { "Material": "Cotton", "Color": "Khaki", "Sizes": ["M", "L"] },
+    "rating": 4.4
+  },
+  {
+    "id": 42,
+    "name": "Women's Jacket",
+    "category": ["Fashion", "Women", "Topwear"],
+    "price": 119.99,
+    "image": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3",
+    "description": "Stylish jacket for women, perfect for winter.",
+    "specifications": { "Material": "Wool", "Color": "Gray", "Sizes": ["S", "M", "L"] },
+    "rating": 4.6
+  },
+  {
+    "id": 43,
+    "name": "Boys' T-Shirt",
+    "category": ["Fashion", "Boys", "Topwear"],
+    "price": 24.99,
+    "image": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/7417253/2023/8/2/b90909a0-dd60-4bca-aa6a-742c25b549e91690971021469-Wear-Your-Mind-Boys-Black-Printed-Round-Neck-T-shirt-4891690-1.jpg",
+    "description": "Graphic t-shirt for boys, fun and trendy.",
+    "specifications": { "Material": "Cotton", "Color": "Black", "Sizes": ["S", "M"] },
+    "rating": 4.3
+  },
+  {
+    "id": 44,
+    "name": "Girls' Sandals",
+    "category": ["Fashion", "Girls", "Footwear"],
+    "price": 34.99,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+    "description": "Cute sandals for girls, ideal for summer.",
+    "specifications": { "Material": "Leather", "Color": "White", "Sizes": ["3", "4", "5"] },
+    "rating": 4.4
+  },
+  {
+    "id": 45,
+    "name": "Headphones",
+    "category": ["Electronics", "Accessories", "Audio"],
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+    "description": "Over-ear headphones with superior sound quality.",
+    "specifications": { "Battery": "30 hours", "Connectivity": "Bluetooth 5.0" },
+    "rating": 4.8
+  },
+  {
+    "id": 46,
+    "name": "Men's Sunglasses",
+    "category": ["Fashion", "Men", "Accessories"],
+    "price": 69.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrXrpYnj5oL9EG8FqZb5QN_2Tliwd_xv6xfA&s",
+    "description": "Trendy sunglasses for men, UV protection.",
+    "specifications": { "Material": "Polycarbonate", "Color": "Black", "Lens": "Polarized" },
+    "rating": 4.5
+  },
+  {
+    "id": 47,
+    "name": "Women's Earrings",
+    "category": ["Fashion", "Women", "Jewelry"],
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f",
+    "description": "Dainty earrings for everyday elegance.",
+    "specifications": { "Material": "Gold Plated", "Style": "Hoop" },
+    "rating": 4.4
+  },
+  {
+    "id": 48,
+    "name": "Kids' Watch",
+    "category": ["Fashion", "Kids", "Accessories"],
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12",
+    "description": "Colorful watch for kids, easy to read.",
+    "specifications": { "Material": "Silicone", "Color": "Blue", "Water Resistance": "30m" },
+    "rating": 4.3
+  },
+  {
+    "id": 49,
+    "name": "Microwave Oven",
+    "category": ["Home", "Appliances", "Kitchen"],
+    "price": 149.99,
+    "image": "https://m.media-amazon.com/images/I/619Oju54bwL._AC_UF894,1000_QL80_.jpg",
+    "description": "Compact microwave for quick meals.",
+    "specifications": { "Capacity": "20L", "Power": "700W" },
+    "rating": 4.5
+  },
+  {
+    "id": 50,
+    "name": "Cleanser",
+    "category": ["Beauty", "Skincare", "Cleansers"],
+    "price": 24.99,
+    "image": "https://cdn1.feelunique.com/img/products/169752/cetaphil_hydrating_foaming_cream_cleanser_236ml-1741251100_main.jpg",
+    "description": "Gentle cleanser for daily skincare.",
+    "specifications": { "Volume": "100ml", "Type": "Foam" },
+    "rating": 4.4
+  }
+]
